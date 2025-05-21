@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "agents-course"
+version = "0.1.0"
+description = ""
+authors = ["hench89 <henrik.c@maersk.com>"]
+readme = "README.md"
+packages = [
+  {include = "*", from = "src"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+smolagents = {extras = ["litellm"], version = "^1.16.1"}
+sqlalchemy = "^2.0.41"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
