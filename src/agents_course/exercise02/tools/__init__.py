@@ -1,0 +1,3 @@
+from agents_course.exercise02.tools.web_search import DuckDuckGoSearchTool
+from agents_course.exercise02.tools.final_answer import FinalAnswerTool
+from agents_course.exercise02.tools.visit_webpage import VisitWebpageTool

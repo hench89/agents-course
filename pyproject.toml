@@ -10,8 +10,10 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-smolagents = {extras = ["litellm"], version = "^1.16.1"}
+smolagents = {extras = ["litellm"], version = "1.9.2"}
 sqlalchemy = "^2.0.41"
+huggingface-hub = "^0.31.4"
+duckduckgo-search = "^8.0.2"
 
 
 [build-system]

@@ -1,3 +1,14 @@
+"""This exercise demonstrates how to use the CodeAgent with a SQL database.
+It creates an in-memory SQLite database, sets up a table with some sample data, and allows the agent to query the database using SQL.
+The agent is capable of executing SQL queries and returning the results.
+
+To run the code, ensure ollama is running on your local machine.
+    > brew install ollama
+    > ollama pull ollama_chat/qwen2:7b
+    > ollama serve
+
+"""
+
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, Float, insert, inspect, text, Engine
 from smolagents import CodeAgent, LiteLLMModel, tool
 
