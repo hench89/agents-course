@@ -14,7 +14,12 @@ smolagents = {extras = ["litellm"], version = "1.9.2"}
 sqlalchemy = "^2.0.41"
 huggingface-hub = "^0.31.4"
 duckduckgo-search = "^8.0.2"
+langgraph = "^0.4.5"
+langchain-openai = "^0.3.17"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
