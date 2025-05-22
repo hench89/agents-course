@@ -1,3 +1,4 @@
+import re
 from smolagents.tools import Tool
 
 
