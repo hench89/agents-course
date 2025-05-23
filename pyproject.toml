@@ -16,6 +16,7 @@ huggingface-hub = "^0.31.4"
 duckduckgo-search = "^8.0.2"
 langgraph = "^0.4.5"
 langchain-openai = "^0.3.17"
+langchain-core = "^0.3.60"
 
 
 [tool.poetry.group.dev.dependencies]
